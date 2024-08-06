@@ -11,11 +11,12 @@ import { CasesPartnerComponent } from './components/molecules/cases/cases-partne
 import { CarouselCasePartnerComponent } from './components/molecules/carousel-case-partner/carousel-case-partner.component';
 import { LineItemsComponent } from './components/atoms/line-items/line-items.component';
 import { ActulitySectionComponent } from './components/molecules/actulity-section/actulity-section.component';
+import { DescriptionSectionComponent } from './components/molecules/description-section/description-section.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [BurgubiaSectionComponent,RouterOutlet,GraphboardComponent,CaseoptionComponent,MenuiconComponent,ProfileBlocComponent,NotifItemComponent,RedButtonComponent,CasesPartnerComponent,CarouselCasePartnerComponent,LineItemsComponent,ActulitySectionComponent],
+  imports: [BurgubiaSectionComponent,RouterOutlet,GraphboardComponent,CaseoptionComponent,MenuiconComponent,ProfileBlocComponent,NotifItemComponent,RedButtonComponent,CasesPartnerComponent,CarouselCasePartnerComponent,LineItemsComponent,ActulitySectionComponent,DescriptionSectionComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })

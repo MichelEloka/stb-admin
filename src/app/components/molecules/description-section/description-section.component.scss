@@ -1,0 +1,20 @@
+.description-conatiner{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 700px;
+
+    h2{
+        height: 10%;
+        background-color: rgba(237, 23, 76, 1);
+        padding: 2%;
+        color: white;
+    }
+    p{
+        height: 90%;
+        background-color: rgba(226, 226, 235, 1);
+        padding: 2%;
+
+    }
+
+}

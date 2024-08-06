@@ -11,9 +11,10 @@ import { RedButtonComponent } from '../buttons/red-button/red-button.component';
   styleUrl: './line-items.component.scss'
 })
 export class LineItemsComponent {
-  lines = new Array(5); 
+  @Input() lines = new Array(5); 
   activeIndex = 0;
   @Input() buttons=true;
+  @Input() color: string='black';
 
 
   public changeColor(direction: string): void {
