@@ -1,0 +1,57 @@
+ 
+
+
+  .Acontainer{
+
+    display: flex;
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    max-width: 2000px;
+    transition: transform 0.5s ease;
+    margin: 0px;
+    padding: 0px;
+
+   
+  }
+ 
+  .item{
+    width: 25%;
+    opacity: 0.5;
+    transition: opacity 0.5s ease-in;
+    transition: transform 0.5s ease-in;
+    margin: 0px;
+    padding: 0px;
+   
+    
+    &.active {
+      opacity: 1;
+      scale: 1.1;
+    }
+  }
+  
+ 
+  
+  
+  
+  
+  
+  
+  img {
+    width: 2%;
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+    z-index: 3;
+  }
+  
+
+  .right{
+    left: 96%;
+  }
+  .left{
+    right: 96%;
+  }
+  
+  
+  // Incluez ici le reste de votre CSS pour .container et ses éléments enfants

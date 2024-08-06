@@ -1,0 +1,76 @@
+.red{
+    button{
+        overflow: hidden;
+        background-color: rgba(237, 23, 76, 1);
+        color: white;
+        width: 100%;
+        height: 100%;
+        max-width: 170px;
+        min-height: 30px;
+        border-radius: 7px;
+        min-width: 100px;
+        max-height: 80px;
+        border-style: none;
+    }
+    
+    
+    button:hover{
+        background-color: rgb(223, 62, 102);
+        cursor: pointer;
+        scale: 1.1;
+    }
+
+}
+
+.white{
+    button{
+        overflow: hidden;
+        background-color: white;
+        color: rgba(237, 23, 76, 1);
+        width: 100%;
+        height: 100%;
+        max-width: 170px;
+        min-height: 30px;
+        border-radius: 7px;
+        min-width: 100px;
+        max-height: 80px;
+        border-style: none;
+        font-size: 1.1em;
+    }
+    
+    
+    button:hover{
+        background-color: rgb(237, 208, 215);
+        cursor: pointer;
+        scale: 1.1;
+    }
+
+}
+
+.orange{
+    button{
+        overflow: hidden;
+        background: linear-gradient(to bottom,rgba(238, 124, 0, 1), rgba(237, 23, 76, 1));
+        color: white;
+        width: 100%;
+        height: 100%;
+        max-width: 170px;
+        min-height: 30px;
+        border-radius: 30px;
+        min-width: 100px;
+        max-height: 80px;
+        border-style: none;
+        font-size: 1.1em;
+    }
+
+    
+    
+    
+    button:hover{
+        background: linear-gradient(to bottom,rgb(224, 150, 71), rgb(231, 92, 127));
+        cursor: pointer;
+        scale: 1.1;
+    }
+
+}
+

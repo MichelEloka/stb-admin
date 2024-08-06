@@ -1,0 +1,21 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.container-icon{
+    background-color: aqua;
+    position: relative;
+
+    width: 100%;
+    min-width: 200px;
+    max-width: 400px;
+    display: flex;
+    justify-content: space-between;
+    img{
+        width: 10%;
+    }
+
+}
+

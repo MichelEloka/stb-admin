@@ -1,0 +1,40 @@
+.burguvia-content{
+    width: 100%;
+    background-color: rgba(237, 23, 76, 0.55);
+    border-radius: 80px;
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    position: relative;
+    min-height: 300px;
+    max-width: 600px;
+    min-width: 800px;
+    font-size: 2em;
+    overflow: hidden;
+    color: white;
+}
+
+.img-tiny{
+    position: absolute;
+    left: 90%;
+    width: 7%;
+    bottom: 82%;
+    
+    
+}
+
+.img-cover{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+
+}
+p{
+    
+    width: 60%;
+    text-align: center;
+}

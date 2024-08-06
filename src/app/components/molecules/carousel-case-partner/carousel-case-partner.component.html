@@ -1,0 +1,15 @@
+<div class="Acontainer">
+    <img (click)="prevSlide()" class="left" src="../../../../assets/case-partner/lefttarrow.png" alt="" srcset="">
+    <app-cases-partner class="item"  *ngFor="let i of [-1, 0, 1]" [ngClass]="{'active': i === 0}"
+        [srcBack]="slides[getSlideIndex(i)].srcBack"
+        [title]="slides[getSlideIndex(i)].title"
+        [description]="slides[getSlideIndex(i)].description"
+    
+        
+    ></app-cases-partner>
+    <img  (click)="nextSlide()" class="right" src="../../../../assets/case-partner/rightarrow.png">
+
+
+  </div>
+       
+    

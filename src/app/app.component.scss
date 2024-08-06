@@ -1,0 +1,34 @@
+.containe{
+    width: 90vw;
+}
+
+.caseoption-container{
+    width: 50%;
+}
+
+.borde{
+    /* Polygon 22 (Stroke) */
+
+position: absolute;
+width: 45.9px;
+height: 58.87px;
+left: 137px;
+background-color: grey;
+top: 73.73px;
+border: 2px solid linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), radial-gradient(64.79% 128.55% at 24.69% 35.21%, rgba(0, 0, 0, 0.36) 0%, rgba(241, 159, 3, 0.32) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, conic-gradient(from 90deg at 50% 50%, #FF15A1 0deg, rgba(190, 83, 23, 0.89) 88.59deg, rgba(162, 24, 91, 0.92) 182.78deg, #FF15A1 360deg);
+
+
+}
+.menu-iconcontainer{
+    width: 25%;
+
+}
+
+.button-container{
+    height: 40px;
+    background-color: aqua;
+}
+
+.burgivia-contaiver{
+    width: 70vw;
+}
