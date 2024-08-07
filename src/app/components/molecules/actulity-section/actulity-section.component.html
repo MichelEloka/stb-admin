@@ -2,14 +2,13 @@
     <img class="img-tiny" src="../../../../assets/actuality-img.png" alt="">
     
         <H2>Actualité</H2>
-        <P>Lorem ipsum dolor sit amet. 
-        Quo nobis esse sed ratione incidunt sed nihil vitae. dolor sit amet. 
-        Quo nobis esse sed ratione incidunt sed nihil</P>
+        <P>{{slides[getSlideIndex(currentIndex)].description}}</P>
         <div class="line-container">
             <app-line-items [buttons]="false" [color]="'white'" [lines]="slides"></app-line-items>
 
         </div>
         
     <img   class="img-cover" [src]="slides[getSlideIndex(currentIndex)].srcBack" alt="">
+    <img class="pen-img" src="../../../../assets/pencil/pen.png" alt="pen" srcset="">
  
 </div>

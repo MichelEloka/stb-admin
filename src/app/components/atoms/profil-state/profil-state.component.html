@@ -1,0 +1,7 @@
+
+    <div class="red-container" >
+        <img *ngIf="styleState==='red'" class="red-bkg" src="../../../../assets/red-circle-background.png" alt="">
+        <img *ngIf="styleState==='white'" class="red-bkg" src="../../../../assets/white-circle-background.png" alt="">
+        <div class="connexion-container" [class]="styleState" *ngIf="UrlProfilImage" [ngClass]="{'connected': connectedState,'diconnected': !connectedState}"></div>
+        <img class="profil-img" [src]="UrlProfilImage" alt="">
+    </div>

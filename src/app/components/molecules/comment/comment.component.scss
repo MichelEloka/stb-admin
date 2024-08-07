@@ -1,0 +1,74 @@
+.red-container{
+    
+    width: 12%;
+    height: 100%;
+    position: relative;
+    margin: 0;
+   
+    
+
+
+}
+
+.profil-img{
+    position: absolute;
+    z-index: 2;
+    top: 15%;
+    left: 28%;
+
+}
+
+.red-bkg{
+    width: 110%;
+}
+
+.comment-container{
+    width: 100%;
+    max-width: 750px;
+   
+    position: relative;
+    display: flex;
+    
+    align-items: center;
+    padding: 0;
+    justify-content: space-between;
+    
+
+    
+}
+
+.sub-container{
+    display: flex;
+    flex-grow: 1;
+   
+    
+    gap: 10%;
+    align-items: center;
+   
+    
+}
+.pen-img{
+    flex-grow: 0;
+}
+
+.connexion-container{
+    width: 28%;
+   
+    height: 23%;
+    position: absolute;
+    border-radius: 1000px;
+    border: 2px solid white;
+    left: 72%;
+    top:1%;
+    box-shadow: -3px 8px 17px;
+    
+}
+
+.connected{
+    background-color: greenyellow;
+
+}
+
+.diconnected{
+    background-color: red;
+}
